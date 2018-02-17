@@ -1,5 +1,5 @@
 <h1><%=@patient.name%></h1>
 <%=@patient.appointments.each do |appt|%>
-  <%=appt.datetime_humanized%>
+  <%=appt.datetime%>
   <%=link_to @patient.doctor, doctor_path(@patient.doctor)%>
 <%end%>
