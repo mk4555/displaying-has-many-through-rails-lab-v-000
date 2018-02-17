@@ -2,3 +2,4 @@
 <%=@patient.appointments.each do |appt|%>
   <%=appt.datetime_humanized%>
   <%=link_to @patient.doctor, doctor_path(@patient.doctor)%>
+<%end%>
