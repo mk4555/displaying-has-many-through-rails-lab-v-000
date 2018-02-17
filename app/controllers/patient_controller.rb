@@ -1,5 +1,7 @@
 class PatientController < ApplicationController
-  def indexend
+  def index
+  end
+  
   def show
   end
 end
